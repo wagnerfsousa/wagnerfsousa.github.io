@@ -3,7 +3,7 @@ title: Entrada e Saída (E/S)
 date: 2023-05-25
 categories: [SO, Sistemas Operacionais Modernos]
 tags: [entrance, exit]     # TAG names should always be lowercase
-published: true
+published: false
 comments: true
 ---
 Eu estou escrevendo isso aqui para apresentar no dia 30/05/2023
@@ -97,7 +97,7 @@ Imagine as portas de E/S como janelas pelas quais o computador pode "ver" e "fal
 * Vantagens: acesso em linguagem de alto nível, proteção fácil contra acesso de usuário, instruções de memória podem ser usadas para acessar os registradores.
 * Desvantagens: problemas com o uso de cache, necessidade de mecanismos especiais para evitar conflitos com memória, complexidade adicional do hardware em sistemas com múltiplos barramentos
 
->Nesse método, os dispositivos de E/S são mapeados diretamente na memória principal do computador. 
+>Nesse método, os dispositivos de E/S são mapeados diretamente na memória principal do computador.
 
 
 ### 1.4 Acesso direto à memória (DMA)
@@ -365,7 +365,7 @@ Tópicos do texto:
 ### 3.4 Software de E/S do espaço do usuário
 Resumo:
 
-A maior parte do software de entrada/saída (E/S) está dentro do sistema operacional, mas uma pequena parte dele consiste em bibliotecas vinculadas aos programas do usuário, e alguns programas inteiros são executados fora do núcleo. As chamadas de sistema, incluindo as chamadas de E/S, geralmente são feitas por meio de rotinas de biblioteca. Essas rotinas de biblioteca são responsáveis por organizar os parâmetros corretamente para as chamadas de sistema. Além disso, existem outras rotinas de E/S que realizam o trabalho real, como a formatação de entrada e saída, e essas são executadas pelas rotinas de biblioteca. 
+A maior parte do software de entrada/saída (E/S) está dentro do sistema operacional, mas uma pequena parte dele consiste em bibliotecas vinculadas aos programas do usuário, e alguns programas inteiros são executados fora do núcleo. As chamadas de sistema, incluindo as chamadas de E/S, geralmente são feitas por meio de rotinas de biblioteca. Essas rotinas de biblioteca são responsáveis por organizar os parâmetros corretamente para as chamadas de sistema. Além disso, existem outras rotinas de E/S que realizam o trabalho real, como a formatação de entrada e saída, e essas são executadas pelas rotinas de biblioteca.
 
 Um exemplo de rotina de biblioteca é o printf em linguagem C, que recebe uma cadeia de caracteres e variáveis como entrada, constrói uma cadeia de caracteres formatada e, em seguida, chama a função write para enviar essa cadeia para a saída. Da mesma forma, a função scanf realiza uma leitura de entrada e armazena os valores lidos nas variáveis correspondentes, seguindo um formato especificado.
 
