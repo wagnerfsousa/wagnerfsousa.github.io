@@ -22,7 +22,7 @@
 
 - type: instagram
   icon: 'fab fa-square-instagram'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.instagram.com/wag_bjj/'
+  url:  'https://www.instagram.com/wag.bjj/'
 
 - type: email
   icon: "fas fa-envelope"
