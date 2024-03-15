@@ -4,7 +4,7 @@ date: 2023-05-25
 categories: [SO, Sistemas Operacionais Modernos]
 tags: [entrance, exit]     # TAG names should always be lowercase
 published: false
-comments: true
+comments: true 
 ---
 Eu estou escrevendo isso aqui para apresentar no dia 30/05/2023
 É uma apresentação sobere Entrada e Saída (E/S) em Sistemas Operacionais.
